@@ -29,3 +29,6 @@ LUTForInst2.Breakpoints(2).Value = [5 6];
 
 LUTForInst1.StructTypeInfo.Name = 'LUT_arg_Type';
 LUTForInst2.StructTypeInfo.Name = 'LUT_arg_Type';
+
+set_param('ex_arg_LUT/Model','ParameterArgumentValues','LUTForInst1')
+set_param('ex_arg_LUT/Model1','ParameterArgumentValues','LUTForInst2')
